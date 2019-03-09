@@ -12,8 +12,7 @@ variable "data-bucket" {
 }
 
 variable "lambda-bucket" {
-  type    = "string"
-  default = "akerl-go-hello-linodians"
+  type = "string"
 }
 
 variable "rate" {
